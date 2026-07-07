@@ -2,21 +2,21 @@
 
 A seamless, local-first web application that translates natural language questions into executable PostgreSQL queries using the local Ollama LLM (`qwen2.5:3b`). 
 
-## 🚀 Features
+## Features
 
 - **Local Privacy**: 100% of the AI processing happens locally on your machine via Ollama. No data is sent to external APIs.
 - **Automated Schema Awareness**: Automatically extracts the database schema from PostgreSQL to context-feed the LLM for accurate SQL generation.
 - **Premium Glassmorphic UI**: Beautiful, modern React frontend built with Vite and TypeScript.
 - **Portable Architecture**: Self-contained PostgreSQL and Node.js instances for zero-configuration startup.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: React, TypeScript, Vite, Axios, Vanilla CSS (Glassmorphism design)
 - **Backend**: FastAPI, SQLAlchemy, Pydantic, Python 3.11
 - **Database**: PostgreSQL 16 (Portable)
 - **AI/LLM**: Ollama (`qwen2.5:3b` model)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 text2sql-app/
@@ -35,7 +35,7 @@ text2sql-app/
 └── pgsql/            # Portable PostgreSQL cluster and data
 ```
 
-## 💻 Running the Application
+## Running the Application
 
 Because this project includes portable versions of the required infrastructure, you do not need to install PostgreSQL or Node.js globally. 
 
@@ -63,7 +63,7 @@ npm run dev
 ```
 *The UI will be available at `http://localhost:5173`*
 
-## 🧑‍💻 Usage Example
+## Usage Example
 
 Once both servers are running, open your browser to the frontend URL and try asking:
 - *"Show me all employees in the Engineering department"*
