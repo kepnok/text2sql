@@ -1,0 +1,35 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache and Compilations
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment configuration (secrets, DB passwords)
+.env
+.env.local
+.env.*.local
+
+# Node.js dependencies and builds (Frontend)
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.svelte-kit/
+**/.next/
+**/.nuxt/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
